@@ -6,6 +6,13 @@
 **Website**: <http://kevinpy.fr><br />
 **Shortt Website**: <http://shortt.me>
 ***
+<br />
+#### V 1.6 - 27/03/13
+ADD - Modernizr JS<br />
+ADD - Modernizr CSS<br />
+FIX - style.css<br />
+FIX - index.html<br />
+REMOVE - File CSS Print
 #### V 1.5.3 - 26/02/13
 ADD - File CSS Print
 #### V 1.5.2 - 09/02/13
