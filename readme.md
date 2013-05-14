@@ -7,6 +7,16 @@
 **Shortt Website**: <http://shortt.me>
 ***
 <br />
+#### V 1.7 - 14/05/13
+ADD - humans.txt<br />
+ADD - robots.txt<br />
+ADD - JS file main.js<br />
+FIX - index.html<br />
+FIX - style.css<br />
+FIX - jQuey File local (Replace CDN)<br />
+FIX - Modernizr File local (Replace CDN)<br />
+#### V 1.6.1 - 30/03/13
+FIX - Bug index.html<br />
 #### V 1.6 - 27/03/13
 ADD - Modernizr JS<br />
 ADD - Modernizr CSS<br />
