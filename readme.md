@@ -7,6 +7,8 @@
 **Shortt Website**: <http://shortt.me>
 ***
 <br />
+#### V 1.7.1 - 02/07/13
+FIX - Viewport index.html
 #### V 1.7 - 14/05/13
 ADD - humans.txt<br />
 ADD - robots.txt<br />
