@@ -7,6 +7,9 @@
 **Shortt Website**: <http://shortt.me>
 ***
 <br />
+#### V 1.7.2 - 31/08/13
+FIX - Viewport index.html
+REMOVE - HTML5 Shiv index.html
 #### V 1.7.1 - 02/07/13
 FIX - Viewport index.html
 #### V 1.7 - 14/05/13
