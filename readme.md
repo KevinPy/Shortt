@@ -4,9 +4,11 @@
 ***
 **Author**: *Kevin Py*<br />
 **Website**: <http://kevinpy.fr><br />
-**Shortt Website**: <http://shortt.me>
+**Shortt Website**: <http://kevinpy.fr/playground/Projects/Shortt>
 ***
 <br />
+### 1.8 - 08/10/13
+ADD - Code Style CSS file
 #### V 1.7.2 - 31/08/13
 FIX - Viewport index.html<br />
 REMOVE - HTML5 Shiv index.html

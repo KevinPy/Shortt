@@ -55,7 +55,9 @@ table {	border-collapse: collapse; border-spacing: 0; }
 /* 1.3 - Style */
 /*----------------------------------------*/
 
-h1, h2, h3, h4, h5, h6 {  }
+h1, h2, h3, h4, h5, h6 {
+	line-height: 200%;
+}
 h1 { font-size: 3rem; }
 h2 { font-size: 2.6rem; }
 h3 { font-size: 2.2rem; }
@@ -71,6 +73,50 @@ p {
 a {
 
 }
+
+a:hover {
+
+}
+
+a img { border: none; }
+a > img { vertical-align: bottom; }
+img { display: block; }
+address { font-style: italic; }
+abbr[title], acronym[title], dfn[title] { cursor: help; border-bottom: thin solid dotted #000; }
+strong, dfn, kbd { font-weight: bold; }
+em, dfn, cite, samp, var { font-style: italic; }
+sup { font-size: 1.1rem; vertical-align: top; }
+sub { font-size: 1.1rem; vertical-align: bottom; }
+small { font-size: 1.1rem; }
+del { text-decoration: line-through; }
+ins { text-decoration: underline; }
+code, pre { line-height: 175%; }
+var, kbd, samp, code, pre { font-family: "Andale Mono", Courier, "Courier New", monospace; background: #fff; }
+code { padding: .5rem; }
+pre {
+	white-space: pre;
+	overflow: auto;
+	padding: 1rem;
+	border: thin solid #000;
+	clear: both;
+	background: none;
+	margin: 3rem auto;
+}
+table {
+	border: thin solid #000;
+	line-height: 1.8rem;
+	margin: 0 0 2rem 0;
+	text-align: left;
+	padding: 0 .5rem;
+}
+caption { text-align: left; }
+tr { border-bottom: thin solid #000; }
+th, td { padding: .5rem; vertical-align: middle; text-align: center; }
+
+.hidden { display: none; }
+.left, .alignleft { float: left; width: auto; }
+.right, .alignright { float: right; width: auto; }
+.center, .aligncenter { margin: 0 auto; display: block; clear: both; }
 
 /*----------------------------------------*/
 /* 1.4 - General */
