@@ -3,7 +3,7 @@
 2012 - 2013 @ All rights reserved
 Author: Kevin Py
 Website: www.kevinpy.fr
-Shortt Framework V 1.8
+Shortt Framework V 1.9
 Website: http://kevinpy.fr/playground/Projects/Shortt/
 
 Licence CC-BY
@@ -27,6 +27,7 @@ http://creativecommons.org/licenses/by/3.0/fr/
 	99.1 - Tablet
 	99.2 - Mobile
 	99.3 - Small
+	99.4 - Print
 
 ----------------------------------------*/
 
@@ -56,7 +57,7 @@ table {	border-collapse: collapse; border-spacing: 0; }
 /*----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 200%;
+	
 }
 h1 { font-size: 3rem; }
 h2 { font-size: 2.6rem; }
@@ -113,7 +114,17 @@ caption { text-align: left; }
 tr { border-bottom: thin solid #000; }
 th, td { padding: .5rem; vertical-align: middle; text-align: center; }
 
-.hidden { display: none; }
+hr {
+	display: block;
+	border: none;
+	border-bottom: thin solid #000;
+	margin: 1rem 0;
+	padding: 0;
+}
+
+textarea { resize: vertical; }
+
+.hidden { display: none; visibility: hidden; }
 .left, .alignleft { float: left; width: auto; }
 .right, .alignright { float: right; width: auto; }
 .center, .aligncenter { margin: 0 auto; display: block; clear: both; }
@@ -121,6 +132,14 @@ th, td { padding: .5rem; vertical-align: middle; text-align: center; }
 /*----------------------------------------*/
 /* 1.4 - General */
 /*----------------------------------------*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 html { font-size: 62.5%; }
 
@@ -173,5 +192,34 @@ body {
 /*----------------------------------------*/
 
 @media screen and (max-width: 320px) {
+
+}
+
+/*----------------------------------------*/
+/* 99.4 - Print */
+/*----------------------------------------*/
+
+@media print {
+	* {
+		background: transparent !important;
+		color: #000 !important;
+		box-shadow: none;
+		text-shadow: none;
+	}
+	@page { margin: .5cm; }
+	a, a:visited { text-decoration: underline; }
+	a[href]:after { content: " (" attr(href) ") "; }
+	abbr[title]:after { content: " (" attr(title) ") "; }
+
+	pre, blockquote {
+		border: 1px solid #888;
+		page-break-inside: avoid;
+	}
+
+	thead { display: table-header-group; }
+	tr, img { page-break-inside: avoid; }
+	img { max-width: 100% !important; }
+	p { orphans: 3; widows: 3; }
+	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; }
 
 }

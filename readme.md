@@ -7,6 +7,12 @@
 **Shortt Website**: <http://kevinpy.fr/playground/Projects/Shortt>
 ***
 <br />
+### 1.9 - 07/11/13
+ADD - Tooltips CSS<br />
+ADD - Print CSS<br />
+FIX - gridponsive.css<br />
+FIX - style.css<br />
+FIX - index.html<br />
 ### 1.8 - 08/10/13
 ADD - Code Style CSS file
 #### V 1.7.2 - 31/08/13
