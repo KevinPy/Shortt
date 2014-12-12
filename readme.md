@@ -1,3 +1,5 @@
+![Shortt logo](http://kpy.me/playground/Projects/Shortt/out/shortt_logo.png)
+
 # Shortt
 ### Framework for Webdesigners & Webdevelopers
 <br />
