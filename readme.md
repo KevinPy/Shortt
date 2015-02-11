@@ -8,9 +8,14 @@ Shortt is a little framework (or boilerplate) for every Webdesigners & Webdevelo
 ***
 **Author**: *Kevin Py*<br />
 **Website**: <http://kpy.me><br />
-**Shortt Website**: <http://kpy.me/playground/Projects/Shortt>
+**Shortt Website**: <http://kpy.me/playground/Projects/Shortt><br />
+**Libraries used**: jQuery, Modernizr, LESS, CSS Reset
 ***
 <br />
+### 2.1 - 11/02/15
+ADD - less.js local<br />
+ADD - style.less<br />
+FIX - style.css<br />
 ### 2.0 - 12/12/14
 ADD - jquery.js local<br />
 ADD - modernizr.js local<br />
