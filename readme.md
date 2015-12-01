@@ -1,4 +1,4 @@
-![Shortt logo](http://kpy.me/playground/Projects/Shortt/out/shortt_logo.png)
+![Shortt logo](http://kpy.me/Projects/Shortt/out/shortt_logo.png)
 
 # Shortt
 ### Framework for Webdesigners & Webdevelopers
@@ -8,10 +8,21 @@ Shortt is a little framework (or boilerplate) for every Webdesigners & Webdevelo
 ***
 **Author**: *Kevin Py*<br />
 **Website**: <http://kpy.me><br />
-**Shortt Website**: <http://kpy.me/playground/Projects/Shortt><br />
+**Shortt Website**: <http://kpy.me/Projects/Shortt><br />
 **Libraries used**: jQuery, Modernizr, LESS, CSS Reset
 ***
 <br />
+### 2.2 - 01/12/15
+ADD - Open Graph<br />
+ADD - Twitter Card<br />
+ADD - Assets folder (css, img, js)<br />
+FIX - index.html<br />
+FIX - style.css<br />
+FIX - style.less<br />
+FIX - main.js<br />
+FIX - less.js (2.5.3)<br />
+FIX - jquery.js (1.11.3)<br />
+REMOVE - Modernizr.js<br />
 ### 2.1 - 11/02/15
 ADD - less.js local<br />
 ADD - style.less<br />

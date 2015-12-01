@@ -2,9 +2,9 @@
 
 2012 - 2015 @ All rights reserved
 Author: Kevin Py
-Website: www.kevinpy.fr
-Shortt Framework V 2.0
-Website: http://kevinpy.fr/playground/Projects/Shortt/
+Website: www.kpy.me
+Shortt Framework V 2.2
+Website: http://kpy.me/Projects/Shortt/
 
 Licence CC-BY
 http://creativecommons.org/licenses/by/3.0/fr/
@@ -25,9 +25,9 @@ http://creativecommons.org/licenses/by/3.0/fr/
 	2.1 - Homepage
 
 99 - Media Queries
-	99.1 - Tablet
-	99.2 - Mobile
-	99.3 - Small
+	99.1 - > 960px
+	99.2 - 640px < 960px
+	99.3 - < 640px
 	99.4 - Print
 
 ----------------------------------------*/
@@ -139,6 +139,8 @@ textarea { resize: vertical; }
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 html { font-size: 62.5%; }
@@ -178,26 +180,26 @@ body {
 
 
 /*----------------------------------------*/
-/* 99.1 - Tablet */
+/* 99.1 - > 960px */
 /*----------------------------------------*/
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 961px) {
 	
 }
 
 /*----------------------------------------*/
-/* 99.2 - Mobile */
+/* 99.2 - 640px < 960px */
 /*----------------------------------------*/
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 641px) and (max-width: 960px) {
 
 }
 
 /*----------------------------------------*/
-/* 99.3 - Small */
+/* 99.3 - < 640px */
 /*----------------------------------------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
 
 }
 
