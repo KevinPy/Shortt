@@ -12,6 +12,11 @@ Shortt is a little framework (or boilerplate) for every Webdesigners & Webdevelo
 **Libraries used**: jQuery, Modernizr, LESS, CSS Reset
 ***
 <br />
+### 2.3 - 03/12/15
+ADD - 404.html<br />
+ADD - Browse Happy for IE 7<br />
+FIX - index.html<br />
+FIX - style.css<br />
 ### 2.2 - 01/12/15
 ADD - Open Graph<br />
 ADD - Twitter Card<br />

@@ -3,7 +3,7 @@
 2012 - 2015 @ All rights reserved
 Author: Kevin Py
 Website: www.kpy.me
-Shortt Framework V 2.2
+Shortt Framework V 2.3
 Website: http://kpy.me/Projects/Shortt/
 
 Licence CC-BY
@@ -124,10 +124,30 @@ hr {
 
 textarea { resize: vertical; }
 
-.hidden { display: none; visibility: hidden; }
-.left, .alignleft { float: left; width: auto; }
-.right, .alignright { float: right; width: auto; }
-.center, .aligncenter { margin: 0 auto; display: block; clear: both; }
+.hide { display: none; visibility: hidden; }
+.left { float: left; width: auto; }
+.right { float: right; width: auto; }
+.center { margin: 0 auto; display: block; clear: both; }
+
+.browseHappy {
+	width: 100%;
+	padding: 5px;
+	background-color: #2b4141;
+	color: #fff;
+	font: 13px / 125% Arial, sans-serif;
+	text-align: center;
+}
+
+.browseHappy a {
+	color: #fff;
+	font-weight: bold;
+}
+
+::-moz-selection,
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
 
 /*----------------------------------------*/
 /* 1.4 - General */

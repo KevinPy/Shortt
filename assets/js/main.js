@@ -3,7 +3,7 @@
 2012 - 2015 @ All rights reserved
 Author: Kevin Py
 Website: www.kpy.me
-Shortt Framework V 2.2
+Shortt Framework V 2.3
 Website: http://kpy.me/Projects/Shortt/
 
 Licence CC-BY
